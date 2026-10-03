@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "localcape",
+  "version": "${version}",
+  "name": "Local Purple Heart Cape",
+  "description": "Client-side cosmetic cape for your own player, including Flashback/replay playback. Not tied to any account.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.localcape.LocalCapeClient"] },
+  "mixins": ["localcape.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
